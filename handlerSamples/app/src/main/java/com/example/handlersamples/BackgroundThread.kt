@@ -2,15 +2,19 @@ package com.example.handlersamples
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
+import java.util.*
+import kotlin.concurrent.timerTask
 
 class BackgroundThread : AppCompatActivity() {
 
     private var value = 0
-    private lateinit var textView : TextView
-    private lateinit var button : Button
-    private lateinit var button2 : Button
+    private lateinit var textView: TextView
+    private lateinit var button: Button
+    private lateinit var button2: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,5 +50,24 @@ class BackgroundThread : AppCompatActivity() {
             }
         }
     }
+
+    private var isBackPressedOnce = false
+
+    override fun onBackPressed() {
+        if (isBackPressedOnce) {
+            super.onBackPressed()
+        } else {
+            Toast.makeText(this, "앱을 종료하시려면 한 번 더 누르십시오 !", Toast.LENGTH_SHORT).show()
+            isBackPressedOnce = true
+            Handler().postDelayed(
+                timerTask {
+
+                    isBackPressedOnce = false
+
+                }, 5000
+            )
+        }
+    }
+
 }
 

@@ -6,6 +6,8 @@ import android.os.Handler
 import android.os.Message
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
+import kotlin.concurrent.timerTask
 
 
 class HandlerSend : AppCompatActivity() {
@@ -57,6 +59,23 @@ class HandlerSend : AppCompatActivity() {
             val bundle = msg.data
             val value = bundle.getInt("value")
             textView!!.text = "현재 값 : $value" //핸들러를 이용해 스레드에서 UI접근 가능
+        }
+    }
+    private var isBackPressedOnce = false
+
+    override fun onBackPressed() {
+        if (isBackPressedOnce) {
+            super.onBackPressed()
+        } else {
+            Toast.makeText(this, "앱을 종료하시려면 한 번 더 누르십시오 !", Toast.LENGTH_SHORT).show()
+            isBackPressedOnce = true
+            Handler().postDelayed(
+                timerTask {
+
+                    isBackPressedOnce = false
+
+                }, 5000
+            )
         }
     }
 }
