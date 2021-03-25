@@ -3,6 +3,7 @@ package com.example.handlersamples
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -10,7 +11,7 @@ import kotlin.concurrent.timerTask
 
 class HandlerPost : AppCompatActivity() {
 
-    var handler2 = Handler()
+    var handler2 = Handler(Looper.getMainLooper())
 
     private var value = 0
     private lateinit var textView : TextView
@@ -49,7 +50,7 @@ class HandlerPost : AppCompatActivity() {
         } else {
             Toast.makeText(this, "앱을 종료하시려면 한 번 더 누르십시오 !", Toast.LENGTH_SHORT).show()
             isBackPressedOnce = true
-            Handler().postDelayed(
+            Handler(Looper.getMainLooper()).postDelayed(
                 timerTask {
 
                     isBackPressedOnce = false

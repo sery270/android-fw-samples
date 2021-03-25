@@ -3,6 +3,7 @@ package com.example.handlersamples
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.os.Message
 import android.widget.Button
 import android.widget.TextView
@@ -53,7 +54,7 @@ class HandlerSend : AppCompatActivity() {
     }
 
     //핸들러 객체(핸들러 역할 부여)
-    inner class ValueHandler : Handler() {
+    inner class ValueHandler : Handler(Looper.getMainLooper()) {
         override fun handleMessage(msg: Message) {
             super.handleMessage(msg)
             val bundle = msg.data
@@ -69,7 +70,7 @@ class HandlerSend : AppCompatActivity() {
         } else {
             Toast.makeText(this, "앱을 종료하시려면 한 번 더 누르십시오 !", Toast.LENGTH_SHORT).show()
             isBackPressedOnce = true
-            Handler().postDelayed(
+            Handler(Looper.getMainLooper()).postDelayed(
                 timerTask {
 
                     isBackPressedOnce = false
