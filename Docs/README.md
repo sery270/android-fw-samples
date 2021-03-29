@@ -17,6 +17,7 @@
 #### 📝 공부 흔적 
 
 - [프로그램, 프로세스, 스레드, TLS ]()
-- [안드로이드 스레드와 Handler]()
+- [안드로이드 스레드와 Handler 1](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Thread%EC%99%80-Handler-1)
+- [안드로이드 스레드와 Handler 2]()
 - [메인스레드 ]()
 - [백그라운드스레드]()
