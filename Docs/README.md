@@ -4,12 +4,8 @@
 
 **OS와 Android 4대 컴포넌트를 중점**으로 공부합니다. 이 내용들은 Android 앱을 만드는데 있어 앱의 crash 대응이나, customView 작업, 비동기 처리에 있어 훌륭한 거름이 될거라 생각하기에, 열심히 공부해보고자 합니다 :) 
 
-<<<<<<< HEAD
 <img src="android-stack.png" alt="android-stack_2x" style="zoom:33%;" width = "1000px"/> 
 =======
-<img src="android-stack.png" alt="android-stack_2x" style="zoom:33%;" width = "600px"/>
->>>>>>> 94ee46e8d882da7ce9d104121e2f117269f8a19b
-
 ### 📁 [/handlerSamples](https://github.com/sery270/android-fw-samples/tree/master/handlerSamples)
 
 ------
@@ -21,11 +17,8 @@
 #### 📝 공부 흔적 
 
 - [프로그램, 프로세스, 스레드, TLS ]()
-<<<<<<< HEAD
 - [안드로이드 스레드와 Handler]()
-=======
 - [안드로이드 스레드와 Handler 1](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Thread%EC%99%80-Handler-1)
 - [안드로이드 스레드와 Handler 2]()
->>>>>>> 94ee46e8d882da7ce9d104121e2f117269f8a19b
 - [메인스레드 ]()
 - [백그라운드스레드]()
