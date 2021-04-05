@@ -4,8 +4,9 @@
 
 **OS와 Android 4대 컴포넌트를 중점**으로 공부합니다. 이 내용들은 Android 앱을 만드는데 있어 앱의 crash 대응이나, customView 작업, 비동기 처리에 있어 훌륭한 거름이 될거라 생각하기에, 열심히 공부해보고자 합니다 :) 
 
-<img src="android-stack.png" alt="android-stack_2x" style="zoom:33%;" width = "1000px"/> 
-=======
+<img src="android-stack.png" alt="android-stack_2x" style="zoom:20%;" width = "700px"/> 
+
+
 ### 📁 [/handlerSamples](https://github.com/sery270/android-fw-samples/tree/master/handlerSamples)
 
 ------
