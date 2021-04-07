@@ -23,7 +23,24 @@ class MainActivity : AppCompatActivity() {
             onClick(findViewById<TextView>(R.id.text_view))
         }
 
-
+        // TextWatcher의 메서드들은 화면이 바뀔때 호출되는 것이 아니다.
+        // TextView 의 확인해보니, 그 setText()가 호출되면 TextWatcher의 메서드들이 차례로 호출된다.
+        // 즉 실제 내가 지금 설명하려는 invalidate() 호출의 관계없이, onTextChanged()는 setText()가 호출되면 항상 호출된다.
+//        findViewById<TextView>(R.id.text_view).addTextChangedListener(object : TextWatcher {
+//            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+//                Log.d("beforeTextChanged", SystemClock.uptimeMillis().toString())
+//            }
+//
+//            override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+//                Log.d("onTextChanged", SystemClock.uptimeMillis().toString())
+//            }
+//
+//            override fun afterTextChanged(p0: Editable?) {
+//                Log.d("afterTextChanged", SystemClock.uptimeMillis().toString())
+//            }
+//
+//
+//        })
 
 //        GlobalScope.launch {
 //            check(findViewById<TextView>(R.id.text_view))
