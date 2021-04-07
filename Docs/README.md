@@ -17,8 +17,20 @@
 
 #### 📝 공부 흔적 
 
-- [프로그램, 프로세스, 스레드, TLS ]()
-- [안드로이드 스레드와 Handler 1](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Thread%EC%99%80-Handler-1)
-- [안드로이드 스레드와 Handler 2](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Thread%EC%99%80-Handler-2)
-- [메인스레드 ]()
-- [백그라운드스레드]()
+- [⚙️ 안드로이드 Thread와 Handler 1](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Thread%EC%99%80-Handler-1)
+- [⚙️ 안드로이드 Thread와 Handler 2](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Thread%EC%99%80-Handler-2)
+
+
+
+### 📁 [/invalidate](https://github.com/sery270/android-fw-samples/tree/master/invalidate)
+
+------
+
+- Android에서 **invalidate()를 통한 UI 변경 매커니즘**에 대해 다룹니다. 
+
+- invalidate() 함수 호출 및 UI 업데이트 매커니즘을 설명하기 위한 예제코드를 작성했습니다. 
+
+#### 📝 공부 흔적 
+
+- [🎨 안드로이드 UI는 어떻게 업데이트 될까 ?](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-UI%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%90%A0%EA%B9%8C)
+
