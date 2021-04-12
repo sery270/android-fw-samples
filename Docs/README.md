@@ -19,6 +19,7 @@
 
 - [⚙️ 안드로이드 Thread와 Handler 1](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Thread%EC%99%80-Handler-1)
 - [⚙️ 안드로이드 Thread와 Handler 2](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-Thread%EC%99%80-Handler-2)
+- [⚙️ 안드로이드 메인스레드](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-%EB%A9%94%EC%9D%B8%EC%8A%A4%EB%A0%88%EB%93%9C)
 
 
 
