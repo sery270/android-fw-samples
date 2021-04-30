@@ -35,3 +35,17 @@
 
 - [🎨 안드로이드 UI는 어떻게 업데이트 될까 ?](https://velog.io/@sery270/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C-UI%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%EB%90%A0%EA%B9%8C)
 
+
+### 📁 [/OOP](https://github.com/sery270/android-fw-samples/tree/master/OOP)
+
+------
+
+- **수정하기 좋은 구조를 가진 코드**를 작성하기 위한 **객체 지향과 디자인 패턴**에 대해 다룹니다. 
+
+- [개발자가 반드시 정복해야 할 객체 지향과 디자인 패턴](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788969090010)을 참고하여 이해한 내용을 바탕으로, 안드로이드 환경에서의 실습 코드를 작성했습니다. 
+
+#### 📝 공부 흔적
+
+- 
+
+
