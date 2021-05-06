@@ -46,6 +46,6 @@
 
 #### 📝 공부 흔적
 
-- 
+- [🏛 Android의 Clean Architecture에 대해 알아보자 !](https://velog.io/@sery270/Android%EC%9D%98-Clean-Architecture%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90-n9ihbaj4)
 
 
