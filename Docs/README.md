@@ -48,5 +48,7 @@
 
 - [🏛 Android의 Clean Architecture에 대해 알아보자 !](https://velog.io/@sery270/Android%EC%9D%98-Clean-Architecture%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90-n9ihbaj4)
 - [🧩 객체지향의 재사용 : 상속 조립에 대하여 !](https://velog.io/@sery270/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98-%EC%9E%AC%EC%82%AC%EC%9A%A9-%EC%83%81%EC%86%8D-%EC%A1%B0%EB%A6%BD%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC)
+- [DI 라이브러리 비교 (Dagger2 Hilt Koin)](https://github.com/sery270/android-fw-samples/wiki/DI-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EB%B9%84%EA%B5%90-(Dagger2--Hilt--Koin))
+
 
 
